@@ -53,7 +53,8 @@
   }
   .footer-contato li {
     margin-bottom: 30px;
-    font-size: 1.4rem;
+    font-weight: regular;
+    font-size: 1.2rem;
   }
   .footer-contato div {
     justify-content: center;
