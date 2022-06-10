@@ -1,0 +1,158 @@
+.formacao {
+  margin-top: 120px;
+  background: #141414;
+  color: #fff;
+}
+
+.formacao-container {
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: "josefin Sans";
+  justify-items: start;
+  gap: 100px;
+  position: relative;
+}
+
+.formacao-container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 130px;
+  background: url("../imgs/detalhe.svg") no-repeat center;
+  position: absolute;
+  bottom: -65px;
+  left: 20px;
+}
+
+.formacao .subtitulo {
+  color: #000;
+  max-width: 5ch;
+  font-size: 7.3rem;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+
+.formacao-texto strong {
+  color: #fff;
+}
+
+.faculdade-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.faculdade {
+  background-color: #090909;
+  border: solid #000;
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
+
+.faculdade-curso {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+  color: #fff;
+}
+
+.faculdade-curso::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 20px;
+  display: block;
+  background: linear-gradient(180deg, #854083 0%, #b262b1 100%);
+  left: -26px;
+}
+
+.faculdade-instituicao {
+  font-size: 1.125rem;
+  color: #a3a3a3;
+}
+
+.formacao-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: #8f8f8f;
+  margin-bottom: 30px;
+  position: relative;
+}
+.cursos {
+  margin-bottom: 60px;
+}
+.formacao-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.cursos h3::before {
+  background: url("../imgs/Academico-icone.svg") no-repeat center;
+}
+
+.idiomas h3::before {
+  background: url("../imgs/Idioma-Icone.svg") no-repeat center;
+}
+
+.formacao-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .formacao .subtitulo {
+    color: #fff;
+    font-size: 3rem;
+  }
+  .formacao-texto {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,141 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: "josefin Sans";
+  justify-items: start;
+}
+
+.experiencia .subtitulo {
+  color: #e0e0e0;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #525252;
+}
+
+.experiencia-texto strong {
+  color: #000;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  gap: 10px 20px;
+  padding: 20px;
+  background-color: #360a35;
+  border: solid 2px #601f5e;
+  border-radius: 5px;
+  position: relative;
+}
+
+.empresa::before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 20px;
+  display: block;
+  background: linear-gradient(180deg, #854083 0%, #b262b1 100%);
+  top: 20px;
+  left: -6px;
+}
+
+.empresa-ano {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  font-family: "Roboto";
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #ebebeb;
+  width: 25ch;
+}
+
+.empresa-habilidades {
+  max-width: 232px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 5px;
+  background: #984e96;
+  color: #ef9bed;
+  padding: 10px 15px;
+}
+
+.botao {
+  margin-top: 32px;
+  padding: 15px 15px;
+  background-color: #854083;
+  border-radius: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.botao a {
+  color: #ef9bed;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    font-family: "josefin Sans";
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+    color: #ebebeb;
+  }
+
+  .empresa-ano::before {
+    content: "Ano: ";
+  }
+}
+
+@media (max-width: 450px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}
