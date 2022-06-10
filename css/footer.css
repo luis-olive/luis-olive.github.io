@@ -44,7 +44,7 @@
 .footer-copy {
   font-size: 1.125rem;
   color: #525252;
-  grid-row: 1/2;
+  grid-column: 1 / -1;
 }
 
 @media (max-width: 800px) {
@@ -58,5 +58,11 @@
   }
   .footer-contato div {
     justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-contato div {
+    justify-content: stretch;
   }
 }
