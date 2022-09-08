@@ -40,6 +40,8 @@ img {
   max-width: 5ch;
 }
 
+.subtitulo p a {
+}
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
