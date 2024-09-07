@@ -9,6 +9,7 @@ h3,
 p {
   margin: 0px;
   color: #141414;
+  font-weight: normal;
 }
 
 ul {
@@ -33,15 +34,14 @@ img {
 }
 
 .subtitulo {
-  font-size: 8rem;
+  font-size: 3rem;
   word-break: break-all;
   line-height: 1.2;
   text-transform: uppercase;
-  max-width: 5ch;
+  max-width: 4ch;
 }
 
-.subtitulo p a {
-}
+
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;

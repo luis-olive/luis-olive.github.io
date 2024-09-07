@@ -30,7 +30,7 @@
 .formacao .subtitulo {
   color: #000;
   max-width: 5ch;
-  font-size: 7.3rem;
+  font-size: 7.1rem;
 }
 
 .formacao-texto {
@@ -44,6 +44,10 @@
 .formacao-texto strong {
   color: #fff;
 }
+
+.pink {
+  color: #cd77cb;
+} 
 
 .faculdade-lista {
   display: flex;

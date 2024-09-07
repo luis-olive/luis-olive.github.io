@@ -10,6 +10,10 @@
 
 .experiencia .subtitulo {
   color: #e0e0e0;
+  font-size: 8rem;
+
+
+
 }
 
 .experiencia-texto {
@@ -35,10 +39,11 @@
 
 .empresa {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   position: relative;
   gap: 10px 20px;
   padding: 20px;
+  margin-bottom: 32px;
   background-color: #360a35;
   border: solid 2px #601f5e;
   border-radius: 5px;
@@ -69,16 +74,16 @@
 
 .empresa-titulo {
   color: #fff;
-  font-size: 1.125rem;
-  line-height: 1.1;
-  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.19;
+  font-family: Zilla Slab, 'serif';
 }
 
 .empresa-texto {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #ebebeb;
-  width: 25ch;
+  width: 38ch;
 }
 
 .empresa-habilidades {
@@ -99,7 +104,6 @@
 }
 
 .botao {
-  margin-top: 32px;
   padding: 15px 15px;
   background-color: #854083;
   border-radius: 5px;
