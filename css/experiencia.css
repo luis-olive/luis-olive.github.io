@@ -11,10 +11,14 @@
 .experiencia .subtitulo {
   color: #e0e0e0;
   font-size: 8rem;
-
-
+  max-width: 6ch;
+  
 
 }
+.experiencia .subtitulo span {
+color: #9f919f;
+}
+
 
 .experiencia-texto {
   font-size: 1.5rem;
@@ -27,6 +31,7 @@
 .experiencia-texto a {
   color: #360a35;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .experiencia-texto a:hover {
@@ -126,7 +131,7 @@
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color: #e0e0e0;
   }
 
   .experiencia-texto {
