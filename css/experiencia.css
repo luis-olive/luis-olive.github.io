@@ -131,7 +131,8 @@ color: #9f919f;
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #e0e0e0;
+    color: #414040;
+    font-size: 4rem;
   }
 
   .experiencia-texto {
@@ -144,6 +145,7 @@ color: #9f919f;
     order: 1;
     width: initial;
     text-align: left;
+    margin-top: 10px;
     color: #ebebeb;
   }
 
@@ -155,5 +157,8 @@ color: #9f919f;
 @media (max-width: 450px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .empresa-habilidades {
+    max-width: 320px;
   }
 }

@@ -35,3 +35,10 @@
     border-radius: 5px;
   }
 }
+
+@media (max-width:600px) {
+
+  .header-menu a {
+    font-size: 0.8rem;
+  }
+}

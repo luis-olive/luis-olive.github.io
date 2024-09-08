@@ -149,8 +149,8 @@
   }
 
   .formacao .subtitulo {
-    color: #212121;
-    font-size: 8rem;
+    color: #414040;
+    font-size: 4rem;
   }
   .formacao-texto {
     font-size: 1.25rem;
@@ -158,5 +158,13 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+
+  .faculdade-lista{
+  display: inline-block;
+  box-sizing: border-box;
+  }
+  .faculdade-lista li{
+  margin-bottom: 20px;
   }
 }
