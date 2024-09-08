@@ -161,4 +161,7 @@ color: #9f919f;
   .empresa-habilidades {
     max-width: 320px;
   }
+  .empresa-texto { 
+    width: 32ch;
+  }
 }
